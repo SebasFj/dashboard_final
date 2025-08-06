@@ -116,7 +116,7 @@ if st.session_state["view"][boton1]:
 
     t2.markdown(f"""
             <div style="text-align: center;">
-                <h3>Objetivos Generales</h3>
+                <h3>Objetivo General</h3>
                 <p>{TEXTO_EXPLICANDO_1}</p>
             </div>
         """, unsafe_allow_html=True)
@@ -201,4 +201,5 @@ if st.session_state["view"][boton3]:
 
 # if st.session_state["view"][boton4]:
 #     pass
+
 #     #t2.image("./grafica1.png",use_container_width=True)
